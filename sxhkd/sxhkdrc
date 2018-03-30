@@ -1,0 +1,51 @@
+# F1/F2/F3 keys for disabling/enabling, decreasing and increasing volume
+@F1
+	amixer set Master toggle
+
+@F2
+	amixer -q set Master 5%-
+
+@F3
+	amixer -q set Master 5%+
+
+# F11/F12 keys (for backlight)
+@F11
+	xbacklight -set -dec -10%
+@F12
+	xbacklight -set -inc +10%
+
+# Start urxvt
+alt + t
+	urxvt -g 60x20+26+43 &
+
+# Start firefox, I don't want any launchers or stuff
+alt + m
+	firefox &
+
+# Move windows
+alt + {Left,Down,Up,Right}
+	wmv {-20 0, 0 20, 0 -20, 20 0} $(pfw)
+
+# Resize windows
+alt + shift + {Left,Down,Up,Right}
+	wrs {-20 0, 0 20, 0 -20, 20 0} $(pfw)
+
+# Focus windows
+super + {Left,Down,Up,Right}
+	~/contrib/closest.sh {west,south,north,east}
+
+# Tile the windows
+alt + g
+	~/contrib/tile.sh
+
+# Make window fullscreen
+alt + f
+	~/contrib/fullscreen.sh $(pfw)
+
+# Move window to center
+alt + c
+	~/contrib/center.sh
+
+# Glitchy click-to-focus, let's leave it commented
+# button1
+#	~/contrib/focus.sh $(xqp)
