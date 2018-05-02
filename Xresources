@@ -22,13 +22,17 @@
 ! white
 *.color7:       #667788
 *.color15:      #a0d5b2
-XTerm*background:#272B3A
+XTerm*background:#272D3A
 XTerm*foreground:white
 XTerm*faceName:Ubuntu Mono:style=Regular
 XTerm*faceSize:10
 XTerm*selectToClipboard: true
 URxvt*scrollBar: false
-URxvt*background:#272B3A
+URxvt*background:#393651
 URxvt*foreground:white
 URxvt.font:xft:t cherry:pixelsize=13
 Xcursor.theme: cursor-theme
+URxvt.perl-ext-common:        default,xkr-clipboard
+URxvt.iso14755:               false
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Control-Insert:  perl:clipboard:copy

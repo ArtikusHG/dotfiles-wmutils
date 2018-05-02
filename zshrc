@@ -33,4 +33,5 @@ alias lock=/home/artikus/i3lock-fancy/lock
 alias b="cd .."
 alias ls="ls --color"
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-PATH="$PATH:/home/artikus/.gem/ruby/2.5.0/bin"
+PATH="~/.npm-global/bin:$PATH"
+TERM=rxvt-256color

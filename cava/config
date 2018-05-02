@@ -18,11 +18,11 @@ channels = mono
 [color]
 
 ; background = black
-; foreground = cyan
+; foreground = red
 
 gradient = 1
-gradient_color_1 = '#305e85'
-gradient_color_2 = '#517d78'
+gradient_color_1 = '#C61340'
+gradient_color_2 = '#EA1646'
 
 [smoothing]
 

@@ -14,13 +14,21 @@
 @F12
 	xbacklight -set -inc +10%
 
+# Screenshot
+Print
+	scrot -e "mv ~/*scrot*.png ~/Screenshots && notify-send Done 'Screenshot saved.'"
+
 # Start urxvt
 alt + t
-	urxvt -g 60x20+26+43 &
+	urxvtc -g 60x20+26+43 &
 
-# Start firefox, I don't want any launchers or stuff
+# Start min browser
 alt + m
-	firefox &
+	min &
+
+# Start dmenu
+ctrl + Return
+	~/contrib/dmenu.sh
 
 # Move windows
 alt + {Left,Down,Up,Right}
@@ -44,8 +52,8 @@ alt + f
 
 # Move window to center
 alt + c
-	~/contrib/center.sh
+	~/contrib/corner md
 
 # Glitchy click-to-focus, let's leave it commented
-# button1
+#~button1
 #	~/contrib/focus.sh $(xqp)
