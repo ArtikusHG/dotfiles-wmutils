@@ -6,6 +6,9 @@ Optional: cava, ncmpcpp
 # Credits
 The [cherry font](https://github.com/MarinHoc/cherry-font) I'm using was take from @MarinHoc. I **really** love the font, and I happily credit him for the awesome work.
 # Wallpaper
-![Wallpaper](https://images7.alphacoders.com/601/601969.jpg)
+![Wallpaper](https://i.imgur.com/ltmWANZ.png)
 # Screenshots
-Coming soon.
+![Clean](https://i.imgur.com/4KlpyYV.png)
+![One small window running](https://i.imgur.com/5MMaKDE.png)
+![Neofetch running](https://i.imgur.com/E6okoFt.png)
+![Dirty](https://i.imgur.com/55DPYRw.png)
